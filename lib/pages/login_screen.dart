@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../auth/auth_service.dart';
+import 'home_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -13,6 +14,11 @@ class _LoginScreenState extends State<LoginScreen> {
   void _loginWithGoogle() {
     debugPrint("Google login pressed");
     AuthService.signInWithGoogle();
+    // Login to home screen
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => const HomeScreen()),
+    );
   }
 
   void _loginWithApple() {

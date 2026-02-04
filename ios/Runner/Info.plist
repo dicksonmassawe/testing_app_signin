@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>GIDClientID</key>
-    <string>875699962688-c2dgsp4hecol1jp74e1pom92u3b7k7r8.apps.googleusercontent.com</string>
 
     <!-- Google Sign-in Section -->
     <key>CFBundleURLTypes</key>
@@ -13,14 +11,15 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>
-                    com.googleusercontent.apps.875699962688-c2dgsp4hecol1jp74e1pom92u3b7k7r8
-                </string>
+                <string>com.googleusercontent.apps.875699962688-c2dgsp4hecol1jp74e1pom92u3b7k7r8</string>
             </array>
         </dict>
     </array>
 
-	<key>CFBundleDevelopmentRegion</key>
+    <key>GIDClientID</key>
+    <string>875699962688-c2dgsp4hecol1jp74e1pom92u3b7k7r8.apps.googleusercontent.com</string>
+
+    <key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Signin</string>
